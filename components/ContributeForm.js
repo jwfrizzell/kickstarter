@@ -46,7 +46,11 @@ export default class ContributeForm extends Component {
 						header="Something went wrong"
 						content={this.state.errorMessage}
 					/>
-					<Button primary loading={this.state.loading} style={{marginTop: '10px'}}>
+					<Button
+						primary
+						loading={this.state.loading}
+						style={{ marginTop: "10px" }}
+					>
 						Contribute
 					</Button>
 				</Form.Field>
