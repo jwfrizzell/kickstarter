@@ -1,0 +1,24 @@
+#Installs
+npm install --save next@4.1.4
+npm install react reach-dom
+
+#Add to package.json in scripts
+"dev": "next dev"
+
+#run
+npm run dev
+
+
+#Use semantic ui react tools.
+#React components
+npm install --save semantic-ui-react
+npm install --save semantic-ui-css
+
+#NEXT routes extension
+npm install --save next-routes
+
+#Once server.js and routes.js are in place 
+#update package.json script. Change
+#"dev":"next dev"
+#to
+"dev": "node server.js"
